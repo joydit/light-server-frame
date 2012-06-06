@@ -11,7 +11,7 @@
   * 通过线程池处理消息，处理消息的类从基类继承。
   * 下面是一个简单的服务程序。
 
-
+{{{
 class CEchoTask
 	:public CStrMsgTaskBase
 {
@@ -54,3 +54,5 @@ int main(int argc, _TCHAR* argv[])
 	delete pEchoServer;
 	return 0;
 }
+
+}}}
